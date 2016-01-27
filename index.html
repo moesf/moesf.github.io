@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitch.TV Search Stream</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+    <header id="search">
+      <h1>Search Twitch.TV</h1>
+      <form>
+        <input type="text" name="search-query" id="search-query" placeholder="Search query...">
+        <input type="submit" value="Search">
+      </form>        
+
+    </header>
+    <section id="result">
+      Total Results: <span id="total"></span>
+      <div id="pagination">
+        <span id="prevPage"></span> <span id="currentPage"></span>/<span id="totalPages"></span> <span id="nextPage"></span>
+      </div>
+      <div id='dataList'></div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
+

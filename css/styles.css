@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+/* page specific */
+body {
+	font-family: "Lucida Sans","Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+h1 {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+a > h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+}
+a:link {
+	text-decoration: none;
+}
+
+#search, #result {
+	width: 70%;
+	border: 1px solid #333;
+}
+#search {
+	margin: 50px auto 0;	
+	padding: 50px;
+}
+input#search-query {
+	width: 50%;
+}
+#result {
+	border-top: none;
+	margin: 0 auto 50px;
+	padding: 10px;
+	display: none;
+}
+#result:after {
+	content: '';
+	clear: both;
+	display: block;
+	width: 100%;
+}
+#pagination {
+	float: right;
+	text-align: right;
+}
+#prevPage {
+	display: none;
+}
+#currentPage {
+
+}
+#nextPage {
+	display: none;
+}
+#result table {
+	clear: both;
+	width: 80%;
+	margin-top: 20px;
+}
+#result table td {
+	padding: 10px;
+}
+#result td.previewImg {
+	max-width: 320px;
+	width: 30%;
+}
+#result td.previewImg img {
+	width: 100%;
+}
+#result td.details {
+	vertical-align: middle;
+}
+#result td.details h2 {
+	margin-bottom: 5px;
+}
+#result td.details p {
+	margin-top: 5px;
+	line-height: 1.1em;
+}
